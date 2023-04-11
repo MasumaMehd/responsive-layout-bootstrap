@@ -1,0 +1,46 @@
+.m_navbar, .m_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 60px;
+    background-color: #0169FF;
+}
+
+.m_navbar{
+    margin-bottom: 15px;
+}
+
+.m_nav, .m_main, .m_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 450px;
+    background-color: #66A3FE;
+}
+
+.m_footer{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .m_nav, .m_main, .m_side{
+        min-height: 100px;
+    }
+
+    .m_main{
+        margin: 10px 0;
+    }
+}
